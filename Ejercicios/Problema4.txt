@@ -1,0 +1,28 @@
+/*
+Problema4
+Se requiere ingresar las ventas totales diaras de 2 vendedores; realizadas de lunes a viernes.
+Los vendedores están representados en una estructura unidimensional de dos elementos. 
+El arreglo se llama vendedores
+*/
+
+1. Inicio 
+
+2. (vendedores(2), x(50)[{A-Z}, {a-z}, {BS}])
+3. (ventas (2)(5), i[0-n])
+4. cadena, x(50)[{A-Z},{a-z},{BS}]
+5. vendedores <-- {{"Jessica Cole", "Robert Wallace"}}
+6. num_ventas, i[0-n] <-- 0
+7. ventas <-- {{}}
+
+8. Para(fila <-- 0, fila < 2, 1)haga 
+9. 	Para(columna <-- 0, columna < 5, 1)haga
+10. 	  Escribir "Ingresar el numero de ventas realizadas "
+11.       Leer num_ventas
+12. 	  ventas [fila][columna]<--num_ventas
+13.       suma <-- suma + num_ventas 
+14. 	Fin_Para
+15. 	cadena <-- cadena + "Vendedor(a) " + vendedores[fila]
+16. Fin_Para
+
+17. Escribir cadena + "\n" + "Ha realizado un total de " + suma + "en ventas."
+18. Fin

@@ -1,0 +1,21 @@
+/*Problema2
+  Dado el siguiente arreglo bidimensional; representarlo en miniespecificación y recorrerlo
+  para presentar los valores que están de color verde
+*/
+
+1.Inicio
+
+2.(v_verde(4)(4), i[0-n])
+3. v_verde <-- {{20, 30, 40,50}, {2, 3, 4,5},{200, 300, 400,500},{10, 11,12,14}}
+4. fila,  i[0-n]
+5. columna, i[0-n]
+
+6. Para(fila <--1,fila < 4, 1) haga
+7.    Para(columna <--0,columna < 3, 1) haga
+8.        Si fila < columna entonces
+9.                  Escribir v_verde [fila][columna]
+10.            Fin_Si
+11.     Fin_Para
+12.  Fin_Para
+
+13. Fin

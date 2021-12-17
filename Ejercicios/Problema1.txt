@@ -1,0 +1,25 @@
+/*Problema1
+  Dado el siguiente arreglo bidimensional; representarlo en miniespecificación y recorrerlo 
+  para presentar los valores que están de color rojo
+*/
+
+1. Inicio
+
+2. (arreglo (4)(4),i[1-n])
+3.  fila, i[0-n]
+4.  columna, i[0-n]
+5.  valor, i[0-n]
+6.  suma, i[0-n]
+7.  suma <-- 0
+8.  arreglo <-- {{20, 30, 40, 50}, {2, 3, 4, 5}, {200, 300, 400, 500}, {10, 11, 12, 14}}
+
+9.  Para(fila <--0, fila<4, 1) haga 
+
+10.   Para(columna<--0, columna<4, 1) 
+11. 	 Si fila < columna entonces 					    
+12.      Escribir arreglo [fila][columna] // 30 // 40 // 50 // 4 // 5 // 500
+13.      Fin si
+14.   Fin Para
+15. Fin Para
+
+16. Fin
